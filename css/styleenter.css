@@ -23,14 +23,6 @@
 #d3 {
   color: white;
   font-family: 'Anton', sans-serif;
-  font-size: 5vw;
-  mix-blend-mode: difference;
-  top: 10vh;
-}
-
-#d4 {
-  color: white;
-  font-family: 'Anton', sans-serif;
   font-size: 15vw;
   mix-blend-mode: difference;
 }
