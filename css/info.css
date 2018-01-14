@@ -24,5 +24,7 @@
   font-size: 9vw;
   mix-blend-mode: difference;
   overflow-y: scroll;
-  padding: 5vw;
+  padding-left: 4vw;
+  padding-top: 2vw;
+  position: fixed;
 }
