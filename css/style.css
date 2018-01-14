@@ -43,11 +43,9 @@ html, body {
   color: white;
   font-family: 'Anton', sans-serif;
   font-size: 5vw;
-  padding: 5vw;
   border: #fff;
   width: 60%;
-  margin-left: 15vw;
-  margin-top: 15vh;
+  margin-left: 20vw;
   display: flex;
   align-items: center;
   justify-content: center;
