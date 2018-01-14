@@ -23,11 +23,126 @@
 #d3 {
   color: white;
   font-family: 'Anton', sans-serif;
-  font-size: 15vw;
+  font-size: 16vw;
   mix-blend-mode: difference;
+  top: 3vh;
 }
 
-a:link {
+#d4>* {
+  color: white;
+  font-family: 'Anton', sans-serif;
+  font-size: 8vw;
+  position: relative;
+}
+
+.container {
+  background-color: #000;
+  color: white;
+  font-family: 'Anton', sans-serif;
+  font-size: 5vw;
+  padding: 5vw;
+  border: #fff;
+  width: 60%;
+  margin-left: 15vw;
+  margin-top: 35vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+}
+
+#submit {
+  color: white;
+  cursor: pointer;
+  height: 5vw;
+  margin-left: 5vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+#submit:hover {
+  text-shadow: 0 0 0.2em #4195fc, 0 0 0.2em #4195fc, 0 0 0.2em #4195fc;
+  cursor: hand;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 2px solid #fff;
+    box-sizing: border-box;
+    color: white;
+    font-size: 2vw;
+    background-color: #000;
+}
+
+button {
+    background-color: #000;
+    color: white;
+    padding: 30px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    position: relative;
+    top: 30vh;
+}
+
+button:hover {
+    opacity: 0.8;
+    cursor: hand;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: rgb(0,0,0);
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fff;
+    width: 50vw; /* Could be more or less, depending on screen size */
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)}
+    to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+    from {transform: scale(0)}
+    to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+}
+
+/* a:link {
   text-decoration: none;
   color: white;
 }
@@ -45,4 +160,4 @@ a:hover {
 a:active {
     text-decoration: none;
     color: white;
-}
+} */

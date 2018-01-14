@@ -5,17 +5,33 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/animation.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
     <title>CANNABLISS</title>
   </head>
 
   <body>
+
     <div class="one" id=d1></div>
     <div class="one" id=d2></div>
     <div class="one" id=d3>
-      <a href="main.html">
-      <div>CANNABLISS</div></a>
+      <div>CANNABLISS</div>
     </div>
+    <div class="one" id=d4>
+      <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">CLICK TO ENTER</button>
+    </div>
+
+    <div id="id01" class="modal">
+
+        <div class="container">
+
+          <input type="password" placeholder="What's the magic word?" name="psw" required>
+          <div id="submit" type="submit">SUBMIT</div>
+
+        </div>
+      </form>
+    </div>
+
   </body>
 
 </html>
