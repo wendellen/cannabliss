@@ -3,7 +3,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  position: absolute;
+  position: fixed;
   top: 0px;
   left: 0px;
   width: 100%;
@@ -25,7 +25,7 @@
   font-family: 'Anton', sans-serif;
   font-size: 16vw;
   mix-blend-mode: difference;
-  top: 2vh;
+  top: 3vh;
 }
 
 #d4>* {
@@ -44,7 +44,7 @@
   border: #fff;
   width: 60%;
   margin-left: 15vw;
-  margin-top: 35vh;
+  margin-top: 30vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -132,14 +132,6 @@ span.psw {
 @keyframes animatezoom {
     from {transform: scale(0)}
     to {transform: scale(1)}
-}
-
-/* Change styles for span and cancel button on extra small screens */
-@media screen and (max-width: 300px) {
-    span.psw {
-       display: block;
-       float: none;
-    }
 }
 
 a:link {
